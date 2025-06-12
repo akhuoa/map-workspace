@@ -1,0 +1,41 @@
+[
+  {
+    "project": "main",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "main" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
+    "project": "filter-visibility",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "filter-visibility" },
+      { "id": "map-sidebar", "branch": "filter-visibility" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "filter-visibility" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
+    "project": "mapcore-demo",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "mapcore-demo" },
+      { "id": "map-sidebar", "branch": "mapcore-demo" },
+      { "id": "map-utilities", "branch": "mapcore-demo" },
+      { "id": "mapintegratedvuer", "branch": "mapcore-demo" },
+      { "id": "scaffoldvuer", "branch": "mapcore-demo" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  }
+]

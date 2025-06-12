@@ -1,0 +1,24 @@
+[submodule "flatmapvuer"]
+	path = flatmapvuer
+	url = git@github.com:akhuoa/flatmapvuer.git
+[submodule "map-utilities"]
+	path = map-utilities
+	url = git@github.com:akhuoa/map-utilities.git
+[submodule "map-sidebar"]
+	path = map-sidebar
+	url = git@github.com:akhuoa/map-sidebar.git
+[submodule "scaffoldvuer"]
+	path = scaffoldvuer
+	url = git@github.com:akhuoa/scaffoldvuer.git
+[submodule "mapintegratedvuer"]
+	path = mapintegratedvuer
+	url = git@github.com:akhuoa/mapintegratedvuer.git
+[submodule "simulationvuer"]
+	path = simulationvuer
+	url = git@github.com:akhuoa/simulationvuer.git
+[submodule "plotvuer"]
+	path = plotvuer
+	url = git@github.com:akhuoa/plotvuer.git
+[submodule "svg-sprite"]
+	path = svg-sprite
+	url = git@github.com:akhuoa/svg-sprite.git

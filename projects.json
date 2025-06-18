@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "ConnectivityExplorationMode",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "feature/connection-highlight-sync" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "feature/competency-query" },
+      { "id": "mapintegratedvuer", "branch": "feature/connection-highlight-sync" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "filter-visibility",
     "repos": [
       { "id": "flatmapvuer", "branch": "filter-visibility" },

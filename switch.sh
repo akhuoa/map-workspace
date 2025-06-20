@@ -1,4 +1,5 @@
 #!/bin/zsh
+# A script to switch branches in multiple git repositories based on a JSON configuration file.
 
 # Path to the JSON file
 PROJECTS_FILE="projects.json"

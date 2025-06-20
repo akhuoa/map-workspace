@@ -1,4 +1,5 @@
 #!/bin/zsh
+# git pull for all repos
 
 # Iterate over all directories in the current directory
 for dir in */; do

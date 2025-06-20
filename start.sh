@@ -1,4 +1,5 @@
 #!/bin/zsh
+# To run `mapintegratedvuer` in dev mode after linking the packages.
 
 # map utilities
 cd ./map-utilities || exit

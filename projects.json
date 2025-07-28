@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "permalink",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "feature/sidebar-state" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "feature/sidebar-state" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "ConnectivityExplorationMode",
     "repos": [
       { "id": "flatmapvuer", "branch": "feature/connectivity-exploration-mode" },

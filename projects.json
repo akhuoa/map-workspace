@@ -19,7 +19,7 @@
       { "id": "map-sidebar", "branch": "main" },
       { "id": "map-utilities", "branch": "feature/generate-flatmap-filters" },
       { "id": "mapintegratedvuer", "branch": "feature/scaffold-connectivity-filters" },
-      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "scaffoldvuer", "branch": "feature/scaffold-connectivity-filters" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
       { "id": "plotvuer", "branch": "main" }

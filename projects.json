@@ -13,12 +13,12 @@
     ]
   },
   {
-    "project": "feature/test-duplicate-markerids",
+    "project": "Tagging updates",
     "repos": [
-      { "id": "flatmapvuer", "branch": "main" },
-      { "id": "map-sidebar", "branch": "main" },
-      { "id": "map-utilities", "branch": "main" },
-      { "id": "mapintegratedvuer", "branch": "feature/test-duplicate-markerids" },
+      { "id": "flatmapvuer", "branch": "feature/ga-tagging-update" },
+      { "id": "map-sidebar", "branch": "feature/ga-tagging-update" },
+      { "id": "map-utilities", "branch": "feature/ga-tagging-update" },
+      { "id": "mapintegratedvuer", "branch": "feature/ga-tagging-update" },
       { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
@@ -26,13 +26,13 @@
     ]
   },
   {
-    "project": "scaffold-connectivities",
+    "project": "feature/test-duplicate-markerids",
     "repos": [
-      { "id": "flatmapvuer", "branch": "feature/update-flatmap-filters" },
+      { "id": "flatmapvuer", "branch": "main" },
       { "id": "map-sidebar", "branch": "main" },
-      { "id": "map-utilities", "branch": "feature/generate-flatmap-filters" },
-      { "id": "mapintegratedvuer", "branch": "feature/scaffold-connectivity-filters" },
-      { "id": "scaffoldvuer", "branch": "feature/scaffold-connectivity-filters" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "feature/test-duplicate-markerids" },
+      { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
       { "id": "plotvuer", "branch": "main" }

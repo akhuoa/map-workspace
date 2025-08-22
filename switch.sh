@@ -44,7 +44,7 @@ echo "$project_config" | jq -c '.repos[]' | while IFS= read -r repo; do
   if [[ -d "$id" ]]; then
     cd "$id" || exit
 
-    echo "$id\n"
+    echo "Repo: $id\n"
 
     # Check if the working directory is clean
     if [[ -n $(git status --porcelain) ]]; then
@@ -54,7 +54,14 @@ echo "$project_config" | jq -c '.repos[]' | while IFS= read -r repo; do
     fi
 
     # Checkout the branch
-    git checkout "$branch" || exit
+    if git show-ref --verify --quiet "refs/heads/$branch"; then
+      echo "Branch '$branch' exists locally."
+      git checkout "$branch" || exit
+    else
+      echo "Branch '$branch' does not exist locally. Fetching from origin..."
+      git fetch origin "$branch"
+      git checkout "$branch" || exit
+    fi
     echo "Switched to branch '$branch' in '$id'."
 
     cd - > /dev/null || exit

@@ -22,7 +22,16 @@ echo 'Updating flatmapvuer ...'
 npm i
 npm link ../map-utilities
 npm run build-bundle
-npm run test
+npm run cypress:component
+cd - || exit
+
+# Navigate to scaffoldvuer directory, link map-utilities, and exit
+cd ./scaffoldvuer || exit
+echo 'Updating scaffoldvuer ...'
+npm i
+npm link ../map-utilities
+npm run build-bundle
+# npm run test # Scaffold doesn't have test yet
 cd - || exit
 
 # Navigate to mapintegratedvuer directory, link map-utilities, map-sidebar, and flatmapvuer, and exit
@@ -31,5 +40,5 @@ echo 'Updating mapintegratedvuer ...'
 npm i
 npm link ../map-utilities ../map-sidebar ../flatmapvuer
 npm run build-bundle
-npm run cypress
+npm run cypress-component
 cd - || exit

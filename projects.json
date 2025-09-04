@@ -13,45 +13,6 @@
     ]
   },
   {
-    "project": "dependencies-update",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "dependencies-update" },
-      { "id": "map-sidebar", "branch": "dependencies-update" },
-      { "id": "map-utilities", "branch": "dependencies-update" },
-      { "id": "mapintegratedvuer", "branch": "dependencies-update" },
-      { "id": "scaffoldvuer", "branch": "dependencies-update" },
-      { "id": "simulationvuer", "branch": "dependencies-update" },
-      { "id": "svg-sprite", "branch": "dependencies-update" },
-      { "id": "plotvuer", "branch": "dependencies-update" }
-    ]
-  },
-  {
-    "project": "Tagging updates",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "feature/ga-tagging-update" },
-      { "id": "map-sidebar", "branch": "feature/ga-tagging-update" },
-      { "id": "map-utilities", "branch": "feature/ga-tagging-update" },
-      { "id": "mapintegratedvuer", "branch": "feature/ga-tagging-update" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
-    ]
-  },
-  {
-    "project": "test-duplicate-markerids",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "main" },
-      { "id": "map-sidebar", "branch": "main" },
-      { "id": "map-utilities", "branch": "main" },
-      { "id": "mapintegratedvuer", "branch": "feature/test-duplicate-markerids" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
-    ]
-  },
-  {
     "project": "mapcore-demo",
     "repos": [
       { "id": "flatmapvuer", "branch": "mapcore-demo" },

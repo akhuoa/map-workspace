@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "Filter Curie",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "feature/flatmap-viewer-4.3.5" },
+      { "id": "map-sidebar", "branch": "feature/filter-curie" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "feature/filter-curie" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "mapcore-demo",
     "repos": [
       { "id": "flatmapvuer", "branch": "mapcore-demo" },

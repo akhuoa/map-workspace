@@ -13,9 +13,22 @@
     ]
   },
   {
+    "project": "Help mode",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "bugfix/help-mode" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "bugfix/help-mode" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "Filter Curie",
     "repos": [
-      { "id": "flatmapvuer", "branch": "feature/flatmap-viewer-4.3.5" },
+      { "id": "flatmapvuer", "branch": "main" },
       { "id": "map-sidebar", "branch": "feature/filter-curie" },
       { "id": "map-utilities", "branch": "main" },
       { "id": "mapintegratedvuer", "branch": "feature/filter-curie" },

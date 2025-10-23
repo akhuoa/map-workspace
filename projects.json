@@ -13,19 +13,6 @@
     ]
   },
   {
-    "project": "Help mode",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "bugfix/help-mode" },
-      { "id": "map-sidebar", "branch": "main" },
-      { "id": "map-utilities", "branch": "main" },
-      { "id": "mapintegratedvuer", "branch": "bugfix/help-mode" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
-    ]
-  },
-  {
     "project": "Filter Curie",
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },
@@ -46,9 +33,9 @@
       { "id": "map-utilities", "branch": "mapcore-demo" },
       { "id": "mapintegratedvuer", "branch": "mapcore-demo" },
       { "id": "scaffoldvuer", "branch": "mapcore-demo" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
+      { "id": "simulationvuer", "branch": "mapcore-demo" },
+      { "id": "svg-sprite", "branch": "mapcore-demo" },
+      { "id": "plotvuer", "branch": "mapcore-demo" }
     ]
   }
 ]

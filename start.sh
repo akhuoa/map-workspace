@@ -8,6 +8,21 @@ npm install
 npm run build-bundle
 cd - || exit
 
+# Navigate to plotvuer directory, and build plotvuer
+cd ./plotvuer || exit
+echo 'Updating plotvuer ...'
+npm install
+npm run build-bundle
+cd - || exit
+
+# Navigate to simulationvuer directory, link plotvuer, and exit
+cd ./simulationvuer || exit
+echo 'Updating simulationvuer ...'
+npm install
+npm link ../plotvuer
+npm run build-bundle
+cd - || exit
+
 # Navigate to map-sidebar directory, link map-utilities, and exit
 cd ./map-sidebar || exit
 echo 'Updating map-sidebar ...'
@@ -32,10 +47,10 @@ npm link ../map-utilities
 npm run build-bundle
 cd - || exit
 
-# Navigate to mapintegratedvuer directory, link map-utilities, map-sidebar, and flatmapvuer, and exit
+# Navigate to mapintegratedvuer directory, link map-utilities, plotvuer, map-sidebar, and flatmapvuer, and simulationvuer, and exit
 cd ./mapintegratedvuer || exit
 echo 'Updating mapintegratedvuer ...'
 npm install
-npm link ../map-utilities ../map-sidebar ../flatmapvuer ../scaffoldvuer
+npm link ../map-utilities ../plotvuer ../map-sidebar ../flatmapvuer ../simulationvuer
 npm run serve
 cd - || exit

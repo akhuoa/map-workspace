@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "resizing-graphs",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "main" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "feature/resizing-graphs" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "feature/resizing-graphs" }
+    ]
+  },
+  {
     "project": "Filter Curie",
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },

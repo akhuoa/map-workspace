@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "connectivity-keyword-search",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "feature/connectivity-keyword-search" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "resizing-graphs",
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },

@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Default: Unix-style newlines, UTF-8, 2-space indentation, trim trailing whitespace
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+
+# Markdown files: preserve trailing whitespace
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefile: use tabs for indentation
+[Makefile]
+indent_style = tab

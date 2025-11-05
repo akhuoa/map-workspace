@@ -51,6 +51,6 @@ cd - || exit
 cd ./mapintegratedvuer || exit
 echo 'Updating mapintegratedvuer ...'
 npm install
-npm link ../map-utilities ../plotvuer ../map-sidebar ../flatmapvuer ../simulationvuer
+npm link ../svg-sprite ../map-utilities ../plotvuer ../map-sidebar ../flatmapvuer ../simulationvuer
 npm run serve
 cd - || exit

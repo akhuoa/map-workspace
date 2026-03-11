@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "Connectivity Single Listing",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "feature/connectivity-single-listing" },
+      { "id": "map-sidebar", "branch": "feature/connectivity-single-listing" },
+      { "id": "map-utilities", "branch": "feature/connectivity-single-listing" },
+      { "id": "mapintegratedvuer", "branch": "feature/connectivity-single-listing" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "network-connection-change",
     "repos": [
       { "id": "flatmapvuer", "branch": "feature/network-connection-change" },

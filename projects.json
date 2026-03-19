@@ -17,7 +17,7 @@
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },
       { "id": "map-sidebar", "branch": "feature/connectivity-graph-viewer" },
-      { "id": "map-utilities", "branch": "main" },
+      { "id": "map-utilities", "branch": "feature/connectivity-graph-viewer" },
       { "id": "mapintegratedvuer", "branch": "feature/connectivity-graph-viewer" },
       { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },

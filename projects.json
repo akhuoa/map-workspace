@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "cell card explorer",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "feature/cell-card-explorer" },
+      { "id": "map-utilities", "branch": "feature/cell-card-explorer" },
+      { "id": "mapintegratedvuer", "branch": "feature/cell-card-explorer" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "Connectivity Graph Viewer",
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },

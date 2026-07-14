@@ -13,6 +13,19 @@
     ]
   },
   {
+    "project": "expert-consultants",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "feature/expert-consultants" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "feature/expert-consultants" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
     "project": "cell card explorer",
     "repos": [
       { "id": "flatmapvuer", "branch": "feature/cell-card-explorer" },

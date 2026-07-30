@@ -35,3 +35,6 @@ lerna-debug.log*
 # System files
 .DS_Store
 Thumbs.db
+
+# Other local development files
+commit.sh

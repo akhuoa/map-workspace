@@ -13,16 +13,29 @@
     ]
   },
   {
-    "project": "expert-consultants",
+    "project": "feature/dependency-updates",
     "repos": [
-      { "id": "flatmapvuer", "branch": "main" },
-      { "id": "map-sidebar", "branch": "feature/expert-consultants" },
-      { "id": "map-utilities", "branch": "main" },
-      { "id": "mapintegratedvuer", "branch": "feature/expert-consultants" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
+      { "id": "flatmapvuer", "branch": "feature/dependency-updates" },
+      { "id": "map-sidebar", "branch": "feature/dependency-updates" },
+      { "id": "map-utilities", "branch": "feature/dependency-updates" },
+      { "id": "mapintegratedvuer", "branch": "feature/dependency-updates" },
+      { "id": "scaffoldvuer", "branch": "feature/dependency-updates" },
+      { "id": "simulationvuer", "branch": "feature/dependency-updates" },
+      { "id": "svg-sprite", "branch": "feature/dependency-updates" },
+      { "id": "plotvuer", "branch": "feature/dependency-updates" }
+    ]
+  },
+  {
+    "project": "feature/node-20",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "feature/node-20" },
+      { "id": "map-sidebar", "branch": "feature/node-20" },
+      { "id": "map-utilities", "branch": "feature/node-20" },
+      { "id": "mapintegratedvuer", "branch": "feature/node-20" },
+      { "id": "scaffoldvuer", "branch": "feature/node-20" },
+      { "id": "simulationvuer", "branch": "feature/node-20" },
+      { "id": "svg-sprite", "branch": "feature/node-20" },
+      { "id": "plotvuer", "branch": "feature/node-20" }
     ]
   },
   {

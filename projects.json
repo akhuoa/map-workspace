@@ -13,7 +13,20 @@
     ]
   },
   {
-    "project": "feature/dependency-updates",
+    "project": "long-label-tooltip",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "feature/long-label-tooltip" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "feature/long-label-tooltip" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" }
+    ]
+  },
+  {
+    "project": "dependency-updates",
     "repos": [
       { "id": "flatmapvuer", "branch": "feature/dependency-updates" },
       { "id": "map-sidebar", "branch": "feature/dependency-updates" },
@@ -26,7 +39,7 @@
     ]
   },
   {
-    "project": "feature/node-20",
+    "project": "node-20",
     "repos": [
       { "id": "flatmapvuer", "branch": "feature/node-20" },
       { "id": "map-sidebar", "branch": "feature/node-20" },

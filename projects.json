@@ -13,16 +13,16 @@
     ]
   },
   {
-    "project": "dependency-updates",
+    "project": "vue-3.5",
     "repos": [
-      { "id": "flatmapvuer", "branch": "feature/dependency-updates" },
-      { "id": "map-sidebar", "branch": "feature/dependency-updates" },
-      { "id": "map-utilities", "branch": "feature/dependency-updates" },
-      { "id": "mapintegratedvuer", "branch": "feature/dependency-updates" },
-      { "id": "scaffoldvuer", "branch": "feature/dependency-updates" },
-      { "id": "simulationvuer", "branch": "feature/dependency-updates" },
-      { "id": "svg-sprite", "branch": "feature/dependency-updates" },
-      { "id": "plotvuer", "branch": "feature/dependency-updates" }
+      { "id": "flatmapvuer", "branch": "feature/vue-3.5" },
+      { "id": "map-sidebar", "branch": "feature/vue-3.5" },
+      { "id": "map-utilities", "branch": "feature/vue-3.5" },
+      { "id": "mapintegratedvuer", "branch": "feature/vue-3.5" },
+      { "id": "scaffoldvuer", "branch": "feature/vue-3.5" },
+      { "id": "simulationvuer", "branch": "feature/vue-3.5" },
+      { "id": "svg-sprite", "branch": "feature/vue-3.5" },
+      { "id": "plotvuer", "branch": "feature/vue-3.5" }
     ]
   },
   {

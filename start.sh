@@ -1,10 +1,18 @@
 #!/bin/zsh
 # To run `mapintegratedvuer` in dev mode after linking the packages.
 
+# svg sprite
+cd ./svg-sprite || exit
+echo 'Updating svg-sprite ...'
+npm install
+npm run build-bundle
+cd - || exit
+
 # map utilities
 cd ./map-utilities || exit
 echo 'Updating map-utilities ...'
 npm install
+npm link ../svg-sprite
 npm run build-bundle
 cd - || exit
 
@@ -12,6 +20,7 @@ cd - || exit
 cd ./plotvuer || exit
 echo 'Updating plotvuer ...'
 npm install
+npm link ../svg-sprite
 npm run build-bundle
 cd - || exit
 
@@ -27,7 +36,7 @@ cd - || exit
 cd ./map-sidebar || exit
 echo 'Updating map-sidebar ...'
 npm install
-npm link ../map-utilities
+npm link ../svg-sprite ../map-utilities
 npm run build-bundle
 cd - || exit
 
@@ -35,7 +44,7 @@ cd - || exit
 cd ./flatmapvuer || exit
 echo 'Updating flatmapvuer ...'
 npm install
-npm link ../map-utilities
+npm link ../svg-sprite ../map-utilities
 npm run build-bundle
 cd - || exit
 
@@ -43,7 +52,7 @@ cd - || exit
 cd ./scaffoldvuer || exit
 echo 'Updating scaffoldvuer ...'
 npm install
-npm link ../map-utilities
+npm link ../svg-sprite ../map-utilities
 npm run build-bundle
 cd - || exit
 

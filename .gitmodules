@@ -22,3 +22,6 @@
 [submodule "svg-sprite"]
 	path = svg-sprite
 	url = git@github.com:akhuoa/svg-sprite.git
+[submodule "mapcore-gallery"]
+	path = mapcore-gallery
+	url = git@github.com:akhuoa/mapcore-gallery.git

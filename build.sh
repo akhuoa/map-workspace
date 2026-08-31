@@ -3,6 +3,13 @@
 # and link them together
 # and generate tgz package for mapintegratedvuer
 
+# gallery
+cd ./mapcore-gallery || exit
+echo 'Updating mapcore-gallery ...'
+npm install
+npm run build-bundle
+cd - || exit
+
 # svg sprite
 cd ./svg-sprite || exit
 echo 'Updating svg-sprite ...'
@@ -38,7 +45,7 @@ cd - || exit
 cd ./map-sidebar || exit
 echo 'Updating map-sidebar ...'
 npm install
-npm link ../svg-sprite ../map-utilities
+npm link ../svg-sprite ../map-utilities ../mapcore-gallery
 npm run build-bundle
 cd - || exit
 

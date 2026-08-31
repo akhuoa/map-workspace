@@ -9,7 +9,8 @@
       { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
+      { "id": "plotvuer", "branch": "main" },
+      { "id": "mapcore-gallery", "branch": "main" }
     ]
   },
   {
@@ -22,7 +23,8 @@
       { "id": "scaffoldvuer", "branch": "feature/vue-3.5" },
       { "id": "simulationvuer", "branch": "feature/vue-3.5" },
       { "id": "svg-sprite", "branch": "feature/vue-3.5" },
-      { "id": "plotvuer", "branch": "feature/vue-3.5" }
+      { "id": "plotvuer", "branch": "feature/vue-3.5" },
+      { "id": "mapcore-gallery", "branch": "feature/vue-3.5" }
     ]
   },
   {
@@ -35,7 +37,8 @@
       { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
+      { "id": "plotvuer", "branch": "main" },
+      { "id": "mapcore-gallery", "branch": "main" }
     ]
   },
   {
@@ -48,7 +51,8 @@
       { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" }
+      { "id": "plotvuer", "branch": "main" },
+      { "id": "mapcore-gallery", "branch": "main" }
     ]
   },
   {
@@ -61,7 +65,8 @@
       { "id": "scaffoldvuer", "branch": "mapcore-demo" },
       { "id": "simulationvuer", "branch": "mapcore-demo" },
       { "id": "svg-sprite", "branch": "mapcore-demo" },
-      { "id": "plotvuer", "branch": "mapcore-demo" }
+      { "id": "plotvuer", "branch": "mapcore-demo" },
+      { "id": "mapcore-gallery", "branch": "mapcore-demo" }
     ]
   }
 ]

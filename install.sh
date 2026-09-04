@@ -2,14 +2,15 @@
 set -e
 
 packages=(
-  map-utilities
-  plotvuer
-  simulationvuer
-  map-sidebar
-  flatmapvuer
-  scaffoldvuer
-  mapintegratedvuer
+  mapcore-gallery
   svg-sprite
+  plotvuer
+  map-utilities
+  map-sidebar
+  simulationvuer
+  scaffoldvuer
+  flatmapvuer
+  mapintegratedvuer
 )
 
 for package in "${packages[@]}"; do

@@ -14,6 +14,20 @@
     ]
   },
   {
+    "project": "ESLint",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "feature/eslint" },
+      { "id": "map-sidebar", "branch": "feature/eslint" },
+      { "id": "map-utilities", "branch": "feature/eslint" },
+      { "id": "mapintegratedvuer", "branch": "feature/eslint" },
+      { "id": "scaffoldvuer", "branch": "feature/eslint" },
+      { "id": "simulationvuer", "branch": "feature/eslint" },
+      { "id": "svg-sprite", "branch": "feature/eslint" },
+      { "id": "plotvuer", "branch": "feature/eslint" },
+      { "id": "mapcore-gallery", "branch": "feature/eslint" }
+    ]
+  },
+  {
     "project": "cell card explorer",
     "repos": [
       { "id": "flatmapvuer", "branch": "feature/cell-card-explorer" },

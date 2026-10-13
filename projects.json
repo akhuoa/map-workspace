@@ -14,6 +14,20 @@
     ]
   },
   {
+    "project": "COOP/COEP Safari",
+    "repos": [
+      { "id": "flatmapvuer", "branch": "main" },
+      { "id": "map-sidebar", "branch": "main" },
+      { "id": "map-utilities", "branch": "main" },
+      { "id": "mapintegratedvuer", "branch": "bugfix/coep" },
+      { "id": "scaffoldvuer", "branch": "main" },
+      { "id": "simulationvuer", "branch": "main" },
+      { "id": "svg-sprite", "branch": "main" },
+      { "id": "plotvuer", "branch": "main" },
+      { "id": "mapcore-gallery", "branch": "bugfix/coep" }
+    ]
+  },
+  {
     "project": "screenshot",
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },

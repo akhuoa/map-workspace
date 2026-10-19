@@ -56,17 +56,17 @@
     ]
   },
   {
-    "project": "mapcore-demo",
+    "project": "demo",
     "repos": [
-      { "id": "flatmapvuer", "branch": "mapcore-demo" },
-      { "id": "map-sidebar", "branch": "mapcore-demo" },
-      { "id": "map-utilities", "branch": "mapcore-demo" },
-      { "id": "mapintegratedvuer", "branch": "mapcore-demo" },
-      { "id": "scaffoldvuer", "branch": "mapcore-demo" },
-      { "id": "simulationvuer", "branch": "mapcore-demo" },
-      { "id": "svg-sprite", "branch": "mapcore-demo" },
-      { "id": "plotvuer", "branch": "mapcore-demo" },
-      { "id": "mapcore-gallery", "branch": "mapcore-demo" }
+      { "id": "flatmapvuer", "branch": "demo" },
+      { "id": "map-sidebar", "branch": "demo" },
+      { "id": "map-utilities", "branch": "demo" },
+      { "id": "mapintegratedvuer", "branch": "demo" },
+      { "id": "scaffoldvuer", "branch": "demo" },
+      { "id": "simulationvuer", "branch": "demo" },
+      { "id": "svg-sprite", "branch": "demo" },
+      { "id": "plotvuer", "branch": "demo" },
+      { "id": "mapcore-gallery", "branch": "demo" }
     ]
   }
 ]

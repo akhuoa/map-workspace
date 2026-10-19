@@ -4,7 +4,7 @@
 # Iterate over all directories in the current directory
 for dir in */; do
   # Check if the directory is a Git repository
-  if [[ -d "$dir/.git" ]]; then
+  if [[ -e $dir/.git ]]; then
     echo "Entering '$dir'..."
     cd "$dir" || exit
 

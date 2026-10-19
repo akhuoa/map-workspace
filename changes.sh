@@ -12,7 +12,7 @@ else
 fi
 
 for dir in */; do
-  if [ -d "$dir/.git" ]; then
+  if [[ -e $dir/.git ]]; then
     commits=$(git -C "$dir" log --since="$since" --oneline)
     if [[ -n $commits ]]; then
       echo "Changes in last $((days_ago+1)) day(s) in repo: \033[0;32m$dir\033[0m"

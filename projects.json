@@ -14,54 +14,12 @@
     ]
   },
   {
-    "project": "COOP/COEP Safari",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "main" },
-      { "id": "map-sidebar", "branch": "main" },
-      { "id": "map-utilities", "branch": "main" },
-      { "id": "mapintegratedvuer", "branch": "bugfix/coep" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" },
-      { "id": "mapcore-gallery", "branch": "bugfix/coep" }
-    ]
-  },
-  {
     "project": "screenshot",
     "repos": [
       { "id": "flatmapvuer", "branch": "main" },
       { "id": "map-sidebar", "branch": "main" },
       { "id": "map-utilities", "branch": "main" },
       { "id": "mapintegratedvuer", "branch": "feature/screenshot" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" },
-      { "id": "mapcore-gallery", "branch": "main" }
-    ]
-  },
-  {
-    "project": "Open new view",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "feature/open-new-view" },
-      { "id": "map-sidebar", "branch": "main" },
-      { "id": "map-utilities", "branch": "main" },
-      { "id": "mapintegratedvuer", "branch": "feature/open-new-view" },
-      { "id": "scaffoldvuer", "branch": "main" },
-      { "id": "simulationvuer", "branch": "main" },
-      { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" },
-      { "id": "mapcore-gallery", "branch": "main" }
-    ]
-  },
-  {
-    "project": "Connectivity Reference Fix",
-    "repos": [
-      { "id": "flatmapvuer", "branch": "bugfix/expert-consultants" },
-      { "id": "map-sidebar", "branch": "bugfix/empty-references" },
-      { "id": "map-utilities", "branch": "bugfix/connectivity-reference" },
-      { "id": "mapintegratedvuer", "branch": "main" },
       { "id": "scaffoldvuer", "branch": "main" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },

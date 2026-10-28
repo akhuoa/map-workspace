@@ -65,11 +65,11 @@ npm link ../svg-sprite ../map-utilities
 npm run build-bundle
 cd - || exit
 
-# Navigate to mapintegratedvuer directory, link map-utilities, plotvuer, map-sidebar, and flatmapvuer, and simulationvuer, and exit
+# Navigate to mapintegratedvuer directory, link map-utilities, plotvuer, map-sidebar, flatmapvuer, scaffoldvuer, and simulationvuer, and exit
 cd ./mapintegratedvuer || exit
 echo 'Updating mapintegratedvuer ...'
 npm install
-npm link ../svg-sprite ../map-utilities ../plotvuer ../map-sidebar ../flatmapvuer ../simulationvuer
+npm link ../svg-sprite ../map-utilities ../plotvuer ../map-sidebar ../flatmapvuer ../scaffoldvuer ../simulationvuer
 npm run build-bundle
 # generate tgz package for mapintegratedvuer
 npm pack

@@ -29,7 +29,7 @@ cd - || exit
 cd ./plotvuer || exit
 echo 'Updating plotvuer ...'
 npm install
-npm link ../svg-sprite
+npm link ../svg-sprite ../map-utilities
 npm run build-bundle
 cd - || exit
 

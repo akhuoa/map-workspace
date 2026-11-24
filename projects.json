@@ -23,7 +23,7 @@
       { "id": "scaffoldvuer", "branch": "feature/help-mode-tour" },
       { "id": "simulationvuer", "branch": "main" },
       { "id": "svg-sprite", "branch": "main" },
-      { "id": "plotvuer", "branch": "main" },
+      { "id": "plotvuer", "branch": "feature/help-mode-tour" },
       { "id": "mapcore-gallery", "branch": "main" }
     ]
   },
